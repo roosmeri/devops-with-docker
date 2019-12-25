@@ -1,0 +1,3 @@
+$ sudo docker run -p 8000:80 devopsdockeruh/ports_exercise
+
+# By navigating to http://localhost:8000 one can see the "Ports configured correctly!!"-text
