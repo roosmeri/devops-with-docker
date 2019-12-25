@@ -1,0 +1,18 @@
+$ touch logs.txt
+
+
+$ sudo docker run -v "$(pwd)"/logs.txt:/usr/app/logs.txt devopsdockeruh/first_volume_exercise
+
+(node:1) ExperimentalWarning: The fs.promises API is experimental
+Wrote to file /usr/app/logs.txt
+Wrote to file /usr/app/logs.txt
+Wrote to file /usr/app/logs.txt
+Wrote to file /usr/app/logs.txt
+Wrote to file /usr/app/logs.txt
+Wrote to file /usr/app/logs.txt
+
+
+
+
+
+# You may see the output in the logs file.
