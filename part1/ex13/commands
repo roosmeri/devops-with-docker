@@ -1,0 +1,6 @@
+# In the repo directory
+$docker build -t java-example .
+
+$docker run -p 8080:8080 java-example
+
+# Then go to localhost:8080 with browser and press the button to get "success"
