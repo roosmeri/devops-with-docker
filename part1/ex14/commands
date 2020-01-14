@@ -1,0 +1,4 @@
+$docker build -t rails-example .
+$docker run -p 8000:3000 rails-example
+
+#then go to localhost:8000 with browser, clicking increases the press count
